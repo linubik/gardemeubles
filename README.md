@@ -1,7 +1,7 @@
 # gardemeubles
 Objectif : une application PWA basée sur ionic avec accès aux données firebase
 
-# TODO list
+## TODO list
 créer un formulaire : done          ioniccreator (ionic v3)
 hebergement : done                  firebase (google)
 identifier les utilisateurs : done  google signin + fireauth
