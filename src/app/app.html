@@ -1,1 +1,51 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        MenuBulletin
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="side-menu21">
+    <ion-list id="menuBulletin-list1">
+      <ion-item color="none" menuClose="" on-click="goToFranAis()" id="menuBulletin-list-item1">
+        Francais
+        <ion-icon name="bookmarks" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToMaths()" id="menuBulletin-list-item2">
+        Maths
+        <ion-icon name="calculator" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToGOgraphie()" id="menuBulletin-list-item3">
+        Géographie
+        <ion-icon name="globe" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToHistoire()" id="menuBulletin-list-item4">
+        Histoire
+        <ion-icon name="stopwatch" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToSVT()" id="menuBulletin-list-item5">
+        SVT
+        <ion-icon name="leaf" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToNotes()" id="menuBulletin-list-item6">
+        Technologie
+        <ion-icon name="plane" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToNotes()" id="menuBulletin-list-item7">
+        Physique Chimie
+        <ion-icon name="flask" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToArts()" id="menuBulletin-list-item8">
+        Arts
+        <ion-icon name="film" item-right></ion-icon>
+      </ion-item>
+      <ion-item color="none" menuClose="" on-click="goToNotes()" id="menuBulletin-list-item9">
+        Notes
+        <ion-icon name="pulse" item-right></ion-icon>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
